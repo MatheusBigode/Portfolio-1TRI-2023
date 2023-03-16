@@ -1,0 +1,63 @@
+/*-----------------------------------------------------------QUEM SOU EU?---------------------------------------------------------------*/
+
+.portfolio {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    padding: 5%;
+    width: auto;
+    background-color: rgb(240, 240, 240);
+    margin-top: 8%;
+  }
+
+
+
+  #underLinePort{
+    border: 1px solid #53C2B1;
+    width: 15%;
+    animation: slideInPort 3s 3s both;
+    opacity: 0;
+  }
+
+  @keyframes slideInPort {
+    from {
+      margin-left: 100%;
+      width: 50%;
+      opacity: 0;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 15%;
+      opacity: 1;
+    }
+  }
+
+
+
+  #portText{
+    text-indent: 3ch;
+  }
+
+  .port {
+    margin: 3%;
+    text-align: center;
+  }
+
+.titlePort {
+    text-align: center;
+}
+
+#imgPort2022 {
+    border: 2px solid #53C2B1;
+    border-radius: 5px;
+    width: 40%;
+    height: 40%;
+}
+
+#imgPort2021 {
+    border: 2px solid #53C2B1;
+    border-radius: 5px;
+    width: 40%;
+    height: 40%;
+}

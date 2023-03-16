@@ -1,0 +1,84 @@
+    /*-----------------------------------------------------------CONHECIMENTOS E EXPERIÊNCIAS---------------------------------------------------------------*/
+
+
+    .exp{
+        font-family: 'Poppins', sans-serif;
+        font-size: large;
+        padding: 5%;
+        width: auto;
+        background-color: white;
+        margin-top: 3%;
+      }
+    
+      #underLineExp {
+        border: 1px solid #C2AA53;
+        width: 20%;
+        animation: slideInExp 3s 3s both;
+        opacity: 0;
+      }
+    
+      @keyframes slideInExp {
+        from {
+          margin-left: 100%;
+          width: 100%;
+          opacity: 0;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 20%;
+          opacity: 1;
+        }
+      }
+    
+      #expText{
+        text-indent: 3ch;
+      }
+
+      .contItems {
+        display: inline;
+      }
+
+      #divItems{
+        text-align: center;
+        padding-top: 10%;
+      }
+
+      .desc_item{
+        padding: 3%;
+        
+      }
+
+      h3 {
+        text-align: center;
+      }
+
+      #JS {
+        display: inline-block;
+        text-align: center;
+      }
+
+      #HTML {
+        display: inline-block;
+        text-align: center;
+      }
+
+      #CSS {
+        display: inline-block;
+        text-align: center;
+      }
+
+      #EXCEL {
+        display: inline-block;
+        text-align: center;
+      }
+
+      #NETLIFY {
+        display: inline-block;
+        text-align: center;
+      }
+
+      #WORD{
+        display: inline-block;
+        text-align: center;
+      }

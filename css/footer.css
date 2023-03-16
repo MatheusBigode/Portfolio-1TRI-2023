@@ -1,0 +1,16 @@
+footer {
+    font-family: 'Poppins', sans-serif;
+    width: auto;
+    background-image: linear-gradient(white, rgb(179, 179, 179) 100%);
+    padding: 5%;
+}
+
+#divFooter {
+    text-align: center;
+    text-decoration: none;
+    font-size: larger;
+}
+
+li {
+    padding: 0%;
+}
