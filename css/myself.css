@@ -1,0 +1,48 @@
+/*-----------------------------------------------------------QUEM SOU EU?---------------------------------------------------------------*/
+
+.myself {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    padding: 5%;
+    width: auto;
+    background-color: rgb(240, 240, 240);
+    margin-top: 8%;
+    opacity: 0;
+    animation: ShowUpText 4s 3s both;
+  }
+
+  @keyframes ShowUpText {
+    from {
+        opacity: 0;
+    } 
+    to {
+        opacity: 1;
+    }
+}
+
+  #underLineMyself{
+    border: 1px solid #53C2B1;
+    width: 10%;
+    animation: slideInMyself 3s 4s both;
+    opacity: 0;
+  }
+
+
+  @keyframes slideInMyself {
+    from {
+      margin-left: 100%;
+      width: 50%;
+      opacity: 0;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 10%;
+      opacity: 1;
+    }
+  }
+
+  #myselfText{
+    text-indent: 3ch;
+  }

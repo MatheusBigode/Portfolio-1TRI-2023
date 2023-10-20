@@ -1,0 +1,46 @@
+.social{
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    padding: 5%;
+    width: auto;
+    background-color: white;
+    margin-top: 3%;
+  }
+
+#underLineSocial{
+    border: 1px solid #C2AA53;
+    width: 7%;
+    animation: slideInSocial 3s 3s both;
+    opacity: 0;
+}
+
+@keyframes slideInSocial {
+    from {
+      margin-left: 100%;
+      width: 40%;
+      opacity: 0;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 7%;
+      opacity: 1;
+    }
+  }
+
+#logos{
+    text-align: center;
+    padding-top: 5%;
+}
+
+
+#GITHUB {
+    display: inline-block;
+    text-align: center;
+}
+
+#LINKEDIN {
+    display: inline-block;
+    text-align: center;
+}
+
